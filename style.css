@@ -1,0 +1,83 @@
+body{
+    background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    
+
+}
+@media screen and (min-width:769px){
+    .heading{
+        font-size: 5rem;
+    }
+    
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+    
+}
+#img1{
+    height: 15rem;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 2rem;
+    
+}
+#img2{
+    height: 15rem;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+#img3{
+    height: 12.5rem;
+    width: 14rem;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+#img4{
+    width: 14rem;
+    height: 12.5rem;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+#img5{
+    width: 14rem;
+    height: 13.8rem;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+#img6{
+    height: 13.5rem;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+#img7{
+    width: 14rem;
+    height: 13.8rem;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
